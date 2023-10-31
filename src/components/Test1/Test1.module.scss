@@ -1,0 +1,9 @@
+@use "../../style/variables" as variables;
+@use "../../style/mixins" as mixins;
+
+.main {
+  p {
+    color: variables.$primary-color;
+    font-family: variables.$poppins-font;
+  }
+}
